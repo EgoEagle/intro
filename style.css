@@ -1,0 +1,81 @@
+h1 {
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+}
+
+
+body {
+    text-align: center;
+    color: #FFC857;
+    background-color: #1A3A3A;
+    background-image: url("https://1stwebdesigner.com/wp-content/uploads/2019/07/css-background-effects-thumb.jpg");
+    
+
+
+}
+
+.container {
+    position: relative;
+    justify-content: center;
+    display: flex;
+
+}
+
+.heading {
+    display: inline-block;
+    text-align:center;
+    max-width: 1000px;
+    width: 1150px;
+    padding: 20px;
+
+
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.Project1,
+.Project2,
+.Project3 {
+    max-width: 400px;
+    max-height: 500px;
+    padding: 0px;
+    width: 400px;
+    height: 500px;
+}
+
+.Project1 {
+    background-color: #090C9B;
+}
+
+.Project2 {
+    background-color: #3066BE;
+}
+
+.Project3 {
+    background-color: #17255A;
+}
+
+@keyframes move {
+
+
+
+    0% {
+        opacity: 1;
+
+    }
+
+    50% {
+        opacity: 0.1;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
